@@ -12,3 +12,9 @@ arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'Hide ads' 'Video ads' 'Enable tap to seek' 'Hide info cards' 'Remove background playback restrictions' 'Video quality'"
 exclusive-patches = true
+
+[YouTube Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+build-mode = "module"
+excluded-patches = "'GmsCore support'"
