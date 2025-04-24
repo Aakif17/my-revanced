@@ -8,7 +8,6 @@ parallel-jobs = 1
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-arch = "arm64-v8a"
 build-mode = "module"
 included-patches = "'Hide ads' 'Video ads' 'Remove viewer discretion dialog' 'Downloads' 'Seekbar' 'Hide info cards' 'Remove background playback restrictions' 'Video quality'"
 exclusive-patches = true
