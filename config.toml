@@ -2,7 +2,7 @@ enable-magisk-update = true
 parallel-jobs = 1
 
 [Music]
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 build-mode = "module"
 included-patches = "'Hide music video ads' 'Hide 'Get Music Premium'' 'Bypass certificate checks' 'Remove background playback restrictions'"
 exclusive-patches = true
