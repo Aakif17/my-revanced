@@ -1,13 +1,6 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
-[Music]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "arm64-v8a"
-build-mode = "both"
-included-patches = "'Hide music video ads' 'Bypass certificate checks' 'Remove background playback restrictions'"
-exclusive-patches = true
-
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
